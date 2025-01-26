@@ -1,0 +1,47 @@
+# Ignore environment variable files
+.env
+
+# Ignore first draft of the script 
+main.py
+
+# Ignore all generated output files
+*.pdf
+*.json
+*.csv
+*.xlsx
+*.xls
+
+# Ignore all .txt files except for requirements.txt and _log_summary files
+*.txt
+!requirements.txt
+*_log_summary*.txt
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Ignore virtual environment directory
+/venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other common files that may be generated
+*.log
+*.bak
+*.swp
+
+# Ignore IDE-specific files (optional)
+.vscode/
+.idea/
+*.iml
+
+# Ignore other potential sensitive files (optional)
+*.env.local
